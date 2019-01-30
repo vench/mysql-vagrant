@@ -16,7 +16,7 @@ mysql-vagrant is a quick way to run mysql locally for development without an ssh
 
 <img src="sequel-pro.png"/>
 
-### Инстуркция на русском
+### Инструкция на русском
 
         Первый шаг запускаем в папке с кодом  vagrant up
         после успешной установки можно:
