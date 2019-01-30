@@ -16,6 +16,18 @@ mysql-vagrant is a quick way to run mysql locally for development without an ssh
 
 <img src="sequel-pro.png"/>
 
+### Инстуркция на русском
+
+        Первый шаг запускаем в папке с кодом  vagrant up
+        после успешной установки можно:
+        1) Войти в shell виртуальной машины vagrant ssh и работать там с mysql
+                mysql -uroot -p
+        2) Работать с БД через прокинутый порт 3316
+                mysql -uroot --host=33.33.33.1  --port=3316 -p
+         
+        Остановить машину vagrant suspend        
+       
+
 ### Warning
 
 For development use only, do not use in production.
